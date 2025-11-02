@@ -4,7 +4,7 @@ import PhotoList from "./routes/PhotoList";
 import PhotoDetail from "./routes/PhotoDetail";
 import ErrorPage from "./routes/ErrorPage";
 
-const basename = new URL(process.env.PUBLIC_URL).pathname;
+const basename = import.meta.env.BASE_URL;
 
 const router = createBrowserRouter(
   [
