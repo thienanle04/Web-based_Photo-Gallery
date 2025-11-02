@@ -10,7 +10,7 @@
     "test": "vite test",
     "eject": "vite eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -f",
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
